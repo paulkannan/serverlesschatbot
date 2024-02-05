@@ -26,11 +26,11 @@ How to Use:
 Deploy the Stack: Use the AWS CDK to deploy the stack, which creates all the defined resources.
 
 Invoke APIs: Obtain the generated invoke URLs from the CDK outputs for both the text and image processing APIs and paste it in api endpoints in script.js .
-            // Original API endpoint
-            const defaultApiEndpoint = " ";
-
+                        
             // API endpoint for image processing
             const imageApiEndpoint = " ";
+            // Original API endpoint
+            const defaultApiEndpoint = " ";
 
 Submit Data: 
 Use HTTP POST requests to submit text or image data to the respective API endpoint.
