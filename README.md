@@ -33,7 +33,8 @@ Invoke APIs: Obtain the generated invoke URLs from the CDK outputs for both the 
             const defaultApiEndpoint = " ";
 
 
-Zip index.html, script.js, images and style.css into index.zip. Open AWS Amplify console and do the following:
+In the webapp folder, Compress index.html, script.js, images and style.css into index.zip. 
+Open AWS Amplify console and do the following:
   - Select host web app
   - Select Deploy without Git provider
   - Type in your app name and environment name (Dev, Prod, UAT)
