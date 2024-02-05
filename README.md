@@ -25,12 +25,22 @@ How to Use:
 
 Deploy the Stack: Use the AWS CDK to deploy the stack, which creates all the defined resources.
 
-Invoke APIs: Obtain the generated invoke URLs from the CDK outputs for both the text and image processing APIs and paste it in api endpoints in script.js .
+Invoke APIs: Obtain the generated invoke URLs from the CDK outputs for both the text and image processing APIs and paste it in api endpoints in script.js . 
                         
             // API endpoint for image processing
             const imageApiEndpoint = " ";
             // Original API endpoint
             const defaultApiEndpoint = " ";
+
+
+Zip index.html, script.js, images and style.css into index.zip. Open AWS Amplify console and do the following:
+  - Select host web app
+  - Select Deploy without Git provider
+  - Type in your app name and environment name (Dev, Prod, UAT)
+  - Select choose files and upload index.zip
+  - The app will get deployed and you can find domain URL under Hosting Environments of your App
+  - Click the URL and you can view the app screen below     
+![image](https://github.com/paulkannan/serverlesschatbot/assets/46925641/f870dbab-b529-4ea7-9c00-3e3b927c8a54)
 
 Submit Data: 
 Use HTTP POST requests to submit text or image data to the respective API endpoint.
@@ -109,3 +119,4 @@ To clean up the resources created
 ```
 $ cdk destroy
 ```
+
