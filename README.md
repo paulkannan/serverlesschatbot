@@ -6,7 +6,7 @@
 
 Overview
 
-This architecture is designed to provide a serverless, efficient, and automated solution to interact with Amazon Bedrock. Users can interact with the chatbot deployed at Amplify frontend which in turn will invoke API endpoints and Lambda to interact with Bedrock. The chatbot is capable of following :
+This architecture is designed to provide a serverless, efficient, and automated solution to interact with Amazon Bedrock. Users can interact with the chatbot deployed at Amplify frontend which in turn will invoke API endpoints and Lambda to interact with Bedrock. The chatbot can support following functions:
 
 - Have conversations on a variety of topics
 - Provide information from web searches
