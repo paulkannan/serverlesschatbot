@@ -1,3 +1,4 @@
 # serverlesschatbot
 
-![bedrock (3)](https://github.com/paulkannan/serverlesschatbot/assets/46925641/f1507809-cf69-4330-86f5-be87ae898793)
+
+![bedrockorig](https://github.com/paulkannan/serverlesschatbot/assets/46925641/0672ac26-baf4-4232-b6ce-b2b7c0ea0f2c)
